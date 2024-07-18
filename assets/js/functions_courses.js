@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", async () => {
   try {
-    const response = await fetch('assets/json/courses_.json');
+    const response = await fetch('https://naxawave.github.io/updateSystem-test-v1/courses_.json');
     const data = await response.json();
 
     const coursesContainer = document.getElementById('coursesContainer');
