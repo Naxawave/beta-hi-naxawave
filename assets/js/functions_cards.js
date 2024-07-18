@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", async () => {
   try {
-    const response = await fetch('assets/json/cards_.json');
+    const response = await fetch('https://naxawave.github.io/updateSystem-test-v1/cards_.json');
     if (!response.ok) throw new Error('Network response was not ok');
 
     let cards = await response.json();
