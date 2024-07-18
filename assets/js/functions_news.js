@@ -1,7 +1,7 @@
 /*=============== CARDS GENERATOR ===============*/
 document.addEventListener("DOMContentLoaded", async () => {
   try {
-    const response = await fetch('assets/json/news_.json');
+    const response = await fetch('https://naxawave.github.io/updateSystem-test-v1/news_.json');
     const data = await response.json();
 
     const newsContainer = document.getElementById('newsContainer');
